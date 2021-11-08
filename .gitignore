@@ -29,3 +29,8 @@ project/boot/
 
 .bsp
 
+# VSCode specific
+.vscode/
+
+# Metals specific
+.metals

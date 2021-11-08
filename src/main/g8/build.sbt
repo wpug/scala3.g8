@@ -1,9 +1,8 @@
-scalaVersion := "2.13.5"
+scalaVersion := "3.1.0"
 scalacOptions := Seq(
   "-unchecked",
-  "-deprecation", 
-  "-explaintypes",
+  "-deprecation",
   "-encoding", "utf8"
 )
-name := "hello-scala"
+name := "basic-scala3-project"
 version := "0.0.1"
