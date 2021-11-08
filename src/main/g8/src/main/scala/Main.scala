@@ -7,7 +7,7 @@ def main_1: Unit = {
 
 @main
 def main_2(n: Int): Unit = {
-  println(s"Commandline argument: $n")
+  println(s"Commandline argument: \$n")
 }
 
 def bar: String = "-" * 80
@@ -16,7 +16,7 @@ def bar: String = "-" * 80
 def main_3(name: String, age: Int, playsFootball: Boolean, rest: String*): Unit = {
   val playerStatus = if playsFootball then "plays" else "doesn't play"
   println(bar)
-  println(s"$name is $age years old and $playerStatus football.")
+  println(s"\$name is \$age years old and \$playerStatus football.")
   if (rest.length > 0) {
     println(bar)
     println("Some extra (string) arguments:")
