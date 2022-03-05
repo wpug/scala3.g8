@@ -1,36 +1,52 @@
-target/
-boot/
-lib_managed/
-src_managed/
-project/plugins/project/
-/.idea/
-/project/target/
-/src/main/g8/target/
-/project/project/
-
-*.class
-*.log
-
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
+# SBT
 project/boot/
+project/plugins/project/
+project/project/
+project/target/
+target/
 
-# Scala-IDE specific
+# Scala-IDE
 .scala_dependencies
 .worksheet
 
-# ENSIME specific
+# ENSIME
 .ensime_cache/
 .ensime
-/src/main/g8/project/target/
 
+# bloop and Metals
+.bloop
 .bsp
+.metals
+project/metals.sbt
 
 # VSCode specific
 .vscode/
 
-# Metals specific
-.metals
+# scala 3
+.tasty
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.cache-main
+
+#general
+*.class
