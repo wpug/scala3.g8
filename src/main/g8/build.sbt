@@ -8,3 +8,6 @@ scalacOptions := Seq(
   "-deprecation",
   "-encoding", "utf8"
 )
+
+// setting main_1 as the default "main method"
+Compile / run / mainClass := Some("main_1")
