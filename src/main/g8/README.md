@@ -7,32 +7,27 @@ There are 3 _main methods_ available in the `src/scala/Main.scala` file. To use 
 To execute the `main_1` method:
 
 ```
-run
-1
+runMain main_1
 ```
 
 To invoke the `main_2` method with an `Int` argument `123`:
 
 ```
-run 123
-2
+runMain main_2 123
 ```
 
 To execute the `main_3` method with arguments:
 
 ```
-run Bob 12 false aaa bbb ccc
-3
+runMain main_3 Bob 12 false aaa bbb ccc
 ```
 
 or
 
 ```
-run Alice 11 true aaa bbb ccc
-3
+runMain main_3 Alice 11 true aaa bbb ccc
 ```
 
-The numbers (`1`, `2`, and `3`) are used to select the appropriate main method. Their names, together with the indices are printed by SBT in response to the `run` command.
 
 ## Scalafmt
 
