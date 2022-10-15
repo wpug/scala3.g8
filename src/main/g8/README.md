@@ -1,33 +1,12 @@
 # Simple SBT project for Scala 3
 
-## Running the main methods
+## Running the "main program"
 
-There are 3 _main methods_ available in the `src/scala/Main.scala` file. To use them from the SBT command prompt issue one of the following command sequences:
-
-To execute the `main_1` method:
+There code of a sample "main program" can be found in the `src/scala/Main.scala` file. To run them from the SBT command prompt issue one of the following command:
 
 ```
-runMain main_1
+run
 ```
-
-To invoke the `main_2` method with an `Int` argument `123`:
-
-```
-runMain main_2 123
-```
-
-To execute the `main_3` method with arguments:
-
-```
-runMain main_3 Bob 12 false aaa bbb ccc
-```
-
-or
-
-```
-runMain main_3 Alice 11 true aaa bbb ccc
-```
-
 
 ## Scalafmt
 
