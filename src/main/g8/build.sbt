@@ -8,7 +8,7 @@ scalacOptions := Seq(
   "-deprecation",
   "-explain",
   "-explain-types",
-  "-source:3.0-migration",
+  "-source:3.3",
   "-encoding", "utf8"
 )
 
