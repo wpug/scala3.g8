@@ -1,7 +1,7 @@
 name := "$name$"
 version := "0.0.1"
 
-scalaVersion := "3.3.3"
+scalaVersion := "3.5.0"
 
 scalacOptions := Seq(
   "-unchecked",
@@ -14,6 +14,6 @@ scalacOptions := Seq(
 
 libraryDependencies ++= Seq(
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
-    "ch.qos.logback" % "logback-classic" % "1.4.11"
+    "ch.qos.logback" % "logback-classic" % "1.5.8"
 )
 
