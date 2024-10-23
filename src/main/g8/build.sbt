@@ -1,7 +1,7 @@
 name := "$name$"
 version := "0.0.1"
 
-scalaVersion := "3.5.1"
+scalaVersion := "3.5.2"
 
 scalacOptions := Seq(
   "-unchecked",
