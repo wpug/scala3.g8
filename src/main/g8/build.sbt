@@ -14,8 +14,3 @@ scalacOptions := Seq(
   "-encoding", "utf8"
 )
 
-libraryDependencies ++= Seq(
-    "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
-    "ch.qos.logback" % "logback-classic" % "1.5.16"
-)
-
