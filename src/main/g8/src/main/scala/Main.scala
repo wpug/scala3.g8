@@ -1,4 +1,5 @@
 @main def mainProg(): Unit = {
-  println("Hello, World!")
+  val x = 7
+  println(s"${x} + ${x} == ${x + x}")
 }
 
