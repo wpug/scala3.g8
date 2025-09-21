@@ -10,7 +10,7 @@ scalacOptions := Seq(
   "-print-lines",
   "-unchecked",
   "-Xfatal-warnings",
-  "-source:3.3",
+  "-source:3.7",
   "-encoding", "utf8"
 )
 
