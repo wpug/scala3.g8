@@ -1,7 +1,7 @@
 name := "$name$"
 version := "0.0.1"
 
-scalaVersion := "3.7.4"
+scalaVersion := "3.8.2"
 
 Compile / scalacOptions ++= Seq(
   "-deprecation",
@@ -9,8 +9,8 @@ Compile / scalacOptions ++= Seq(
   "-feature",
   "-print-lines",
   "-unchecked",
-  "-Xfatal-warnings",
-  "-source:3.7",
+  "-Werror",
+  "-source:3.8",
   "-encoding", "utf8"
 )
 
