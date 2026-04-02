@@ -7,7 +7,6 @@ Compile / scalacOptions ++= Seq(
   "-deprecation",
   "-explain",
   "-feature",
-  "-print-lines",
   "-unchecked",
   "-Werror",
   "-source:3.8",
