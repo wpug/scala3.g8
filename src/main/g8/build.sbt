@@ -9,7 +9,7 @@ Compile / scalacOptions ++= Seq(
   "-feature",
   "-unchecked",
   "-Werror",
-  "-source:3.8",
+  "-source:3.9",
   "-encoding", "utf8"
 )
 
