@@ -2,7 +2,7 @@
 
 ## Running the "main program"
 
-There code of a sample "main program" can be found in the `src/scala/Main.scala` file. To run them from the SBT command prompt issue one of the following command:
+There code of a sample "main program" can be found in the `src/scala/Main.scala` file. To run it from the SBT command prompt issue the following command:
 
 ```
 run
